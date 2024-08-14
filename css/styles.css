@@ -8,6 +8,7 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -147,8 +148,6 @@ img {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .second-title {
@@ -244,6 +243,9 @@ img {
 .box-item {
   padding-top: 32px;
   padding-bottom: 32px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .third-list {
@@ -364,7 +366,9 @@ img {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.second-list {
 }
 
 .social-page {
