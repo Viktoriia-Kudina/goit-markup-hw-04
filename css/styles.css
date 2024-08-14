@@ -400,10 +400,9 @@ img {
 
 /* footer-social */
 
-.social-footer {
+.container-footer {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: baseline;
 }
 
 .p-social {
