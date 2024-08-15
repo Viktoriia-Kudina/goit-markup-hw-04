@@ -423,13 +423,11 @@ img {
   color: #fff;
   padding: 0;
   margin-bottom: 16px;
-  margin-left: 120px;
 }
 
 .block-social {
   display: flex;
   gap: 16px;
-  margin-left: 120px;
 }
 
 .social-links-footer {
